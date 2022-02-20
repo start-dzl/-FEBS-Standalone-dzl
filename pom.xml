@@ -57,6 +57,16 @@
             <artifactId>febs-common-security-starter</artifactId>
             <version>${febs-cloud.version}</version>
         </dependency>
+        <dependency>
+            <groupId>cc.mrbird</groupId>
+            <artifactId>febs-common-datasource-starter</artifactId>
+            <version>${febs-cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cc.mrbird</groupId>
+            <artifactId>febs-common-doc-starter</artifactId>
+            <version>${febs-cloud.version}</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
