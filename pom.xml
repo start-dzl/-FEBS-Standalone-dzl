@@ -67,6 +67,12 @@
             <artifactId>febs-common-doc-starter</artifactId>
             <version>${febs-cloud.version}</version>
         </dependency>
+        <!--未使用网关时候使用-->
+        <!--<dependency>-->
+            <!--<groupId>io.springfox</groupId>-->
+            <!--<artifactId>springfox-swagger-ui</artifactId>-->
+            <!--<version>${springfox.version}</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <dependencyManagement>
@@ -85,21 +91,21 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>com.codingapi.txlcn</groupId>
-                <artifactId>txlcn-tc</artifactId>
-                <version>${codingapi.txlcn.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.codingapi.txlcn</groupId>
-                <artifactId>txlcn-tm</artifactId>
-                <version>${codingapi.txlcn.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.codingapi.txlcn</groupId>
-                <artifactId>txlcn-txmsg-netty</artifactId>
-                <version>${codingapi.txlcn.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.codingapi.txlcn</groupId>-->
+                <!--<artifactId>txlcn-tc</artifactId>-->
+                <!--<version>${codingapi.txlcn.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.codingapi.txlcn</groupId>-->
+                <!--<artifactId>txlcn-tm</artifactId>-->
+                <!--<version>${codingapi.txlcn.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.codingapi.txlcn</groupId>-->
+                <!--<artifactId>txlcn-txmsg-netty</artifactId>-->
+                <!--<version>${codingapi.txlcn.version}</version>-->
+            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 
